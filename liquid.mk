@@ -1,6 +1,6 @@
 
 # gsm
-$(call inherit-product, vendor/liquid/config/gsm_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
