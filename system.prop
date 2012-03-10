@@ -1,0 +1,26 @@
+# This defines the max event window manager can
+# handle in 1 s. We may adjust this # for performance
+# reason later
+windowsmgr.max_events_per_sec=90
+# end build properties
+#
+# system.prop for maguro
+#
+
+rild.libpath=/vendor/lib/libsec-ril.so
+rild.libargs=-d /dev/ttys0
+telephony.lteOnCdmaDevice=0
+
+# Dalvik heapsize
+dalvik.vm.heapsize=128m
+
+# Default ecclist
+ro.ril.ecclist=112,911,#911,*911
+ro.ril.enable.3g.prefix=1
+ro.ril.hep=1
+ro.ril.hsxpa=3
+ro.ril.enable.dtm=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=8
+ro.ril.enable.a53=1
+ro.ril.hsupa.category=5
