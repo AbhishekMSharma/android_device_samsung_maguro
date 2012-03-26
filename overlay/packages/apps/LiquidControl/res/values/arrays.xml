@@ -14,6 +14,7 @@
 		<item>2G</item>
 		<item>AP</item>
 		<item>TORCH</item>
+        <item>FCHARGE</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -21,7 +22,7 @@
 		<item>BT</item>
 		<item>GPS</item>
 		<item>Wi-Fi</item>
-		<item>Airplane mode</item>
+		<item>Airplane</item>
 		<item>Vibrate</item>
 		<item>Silent</item>
 		<item>Sync</item>
@@ -29,6 +30,7 @@
 		<item>2G</item>
 		<item>Tethering (AP)</item>
 		<item>Torch</item>
+        <item>Fastcharge</item>
 	</string-array>
 
 </resources>
