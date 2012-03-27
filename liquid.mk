@@ -24,7 +24,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=yakju \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    BUILD_DISPLAY_ID="Liquid ICS v1.1" \
+    BUILD_DISPLAY_ID="Liquid ICS v1.2" \
     PRIVATE_BUILD_DESC="yakju-user 4.0.1 ITL41F 228551 release-keys" \
     BUILD_FINGERPRINT=google/yakju/maguro:4.0.1/ITL41F/228551:user/release-keys
 
