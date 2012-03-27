@@ -30,5 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # media
 PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/common/media/xdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/liquid/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
