@@ -18,14 +18,14 @@ PRODUCT_PROPERTY_OVERRIDES += ro.modversion=liquid.maguro.$(shell date +%m%d%y).
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     USER=liquid \
-    BUILD_ID=IMM76D \
-    BUILD_NUMBER=299849 \
+    BUILD_ID=IMM76I \
+    BUILD_NUMBER=330937 \
     PRODUCT_NAME=yakju \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    BUILD_DISPLAY_ID="Liquid ICS v1.3" \
-    PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76D 299849 release-keys" \
-    BUILD_FINGERPRINT=google/yakju/maguro:4.0.4/IMM76D/299849:user/release-keys
+    BUILD_DISPLAY_ID="Liquid ICS v1.4" \
+    PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76I 330937 release-keys" \
+    BUILD_FINGERPRINT="google/yakju/maguro:4.0.4/IMM76I/330937:user/release-keys"
 
 # media
 PRODUCT_COPY_FILES += \
