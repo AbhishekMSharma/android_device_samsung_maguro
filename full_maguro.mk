@@ -21,6 +21,10 @@
 # lines, full and maguro, hence its name.
 #
 
+# Camera and Gallery
+PRODUCT_PACKAGES := \
+    Gallery2
+
 # Get the long list of APNs
 PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
