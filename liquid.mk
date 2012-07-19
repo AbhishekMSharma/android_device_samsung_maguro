@@ -13,7 +13,7 @@ PRODUCT_BRAND := google
 PRODUCT_NAME := liquid_maguro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_PROPERTY_OVERRIDES += ro.modversion=liquid.maguro.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.maguro.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # overrides
 #PRODUCT_BUILD_PROP_OVERRIDES += \
