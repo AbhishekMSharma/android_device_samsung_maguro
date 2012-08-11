@@ -7,6 +7,9 @@ rild.libpath=/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttys0
 telephony.lteOnCdmaDevice=0
 
+# Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
+ro.telephony.call_ring.multiple=0
+
 # Dalvik heapsize
 dalvik.vm.heapsize=256m
 dalvik.vm.heapstartsize=16m

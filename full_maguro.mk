@@ -21,16 +21,12 @@
 # lines, full and maguro, hence its name.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# packages
+PRODUCT_PACKAGES := \
+    GNexusParts
 
-# Inherit from maguro device
+# device
 $(call inherit-product, device/samsung/maguro/device.mk)
 
-# Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_maguro
-PRODUCT_DEVICE := maguro
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Maguro
-PRODUCT_RESTRICT_VENDOR_FILES := true
-PRODUCT_LOCALES := en_US en_GB fr_FR it_IT de_DE es_ES cs_CZ zh_TW zh_CN ru_RU ko_KR pl_PL
+# telephony
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
