@@ -21,3 +21,4 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/maguro/board-info.txt
 
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
+
