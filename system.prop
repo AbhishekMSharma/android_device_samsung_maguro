@@ -2,15 +2,18 @@ windowsmgr.max_events_per_sec=275
 #
 # system.prop for maguro
 #
-
+## cannot take spaces
 rild.libpath=/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttys0
 telephony.lteOnCdmaDevice=0
 
-# Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
+# Ril sends only one RIL_UNSOL_CALL_RING
 ro.telephony.call_ring.multiple=0
 
-# Dalvik heapsize
+# Dalvik Heapsize
 dalvik.vm.heapsize=256m
-dalvik.vm.heapstartsize=16m
-dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapstartsize=32m
+dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heaputilization=0.25
+dalvik.vm.heapidealfree=8388608
+dalvik.vm.heapconcurrentstart=2097152
